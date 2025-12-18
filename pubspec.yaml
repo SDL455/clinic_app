@@ -1,0 +1,70 @@
+name: clinic_customer_app
+description: "ແອັບລູກຄ້າຄລີນິກ ສຸຂະພາບດີ"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management, Navigation, DI
+  get: ^4.6.6
+  
+  # HTTP Client
+  dio: ^5.4.0
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  get_storage: ^2.1.1
+  
+  # Image Loading
+  cached_network_image: ^3.3.1
+  
+  # Image Picker
+  image_picker: ^1.0.7
+  
+  # File Storage
+  path_provider: ^2.1.1
+  
+  # UI Components
+  flutter_svg: ^2.0.9
+  shimmer: ^3.0.0
+  flutter_staggered_animations: ^1.1.1
+  smooth_page_indicator: ^1.1.0
+  
+  # Icons
+  iconsax: ^0.0.8
+  
+  # Utils
+  intl: ^0.19.0
+  
+  # URL Launcher
+  url_launcher: ^6.2.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: NotoSansLao
+      fonts:
+        - asset: assets/fonts/NotoSansLao.ttf
+        - asset: assets/fonts/NotoSansLao.ttf
+          weight: 500
+        - asset: assets/fonts/NotoSansLao.ttf
+          weight: 600
+        - asset: assets/fonts/NotoSansLao.ttf
+          weight: 700
+
+  assets:
+    - assets/images/
+    - assets/icons/
